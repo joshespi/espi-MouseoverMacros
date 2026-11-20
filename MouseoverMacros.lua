@@ -205,6 +205,14 @@ f:SetScript("OnEvent", function(_, event)
 		MouseoverMacrosDB = MouseoverMacrosDB or {}
 		local db = MouseoverMacrosDB
 		db.spells = db.spells or {}
+		-- final release: tell each character once that the addon moved
+		db.movedNotice = db.movedNotice or {}
+		local who = UnitName("player") .. "-" .. GetRealmName()
+		if not db.movedNotice[who] then
+			db.movedNotice[who] = true
+			say("MouseoverMacros has moved into the Espi Utils addon and will get no more updates. "
+				.. "Install Espi Utils and disable this addon; your settings carry over.")
+		end
 		local class = UnitClassBase("player")
 		db.spells[class] = db.spells[class] or {}
 		spells = db.spells[class]

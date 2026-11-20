@@ -1,6 +1,6 @@
 ## Interface: 120105, 16001
-## Title: MouseoverMacros
-## Notes: Syncs mouseover cast macros from a per-class spell list. /momacro help
+## Title: MouseoverMacros (moved to Espi Utils)
+## Notes: MOVED: this addon is now part of Espi Utils and gets no more updates. Install Espi Utils and disable this one.
 ## Version: @project-version@
 ## SavedVariables: MouseoverMacrosDB
 ## X-Curse-Project-ID: 1763810

@@ -1,5 +1,7 @@
 # MouseoverMacros
 
+> **Moved.** MouseoverMacros is now part of **Espi Utils** and is no longer updated here. Install Espi Utils and disable this addon; your settings are copied over on first load.
+
 WoW addon that keeps mouseover cast macros in sync with a spell list per class.
 
 Each spell gets a character macro named `MO <spell>`:

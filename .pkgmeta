@@ -1,1 +1,4 @@
 package-as: MouseoverMacros
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
